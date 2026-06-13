@@ -75,4 +75,4 @@ module.exports = async function handler(req, res) {
     console.error('Backend error:', error);
     return res.status(500).json({ error: 'Server error', message: error.message });
   }
-}
+};
